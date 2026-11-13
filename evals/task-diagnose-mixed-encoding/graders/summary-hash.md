@@ -1,0 +1,4 @@
+---
+type: regex
+pattern: 'input_sha256=f1a5d9ce6b2ed81e8010537ff10f29fae0e5bd7e4a836456bedba92605a2cbec result_sha256=f1a5d9ce6b2ed81e8010537ff10f29fae0e5bd7e4a836456bedba92605a2cbec receipt=152242a348483c65'
+---

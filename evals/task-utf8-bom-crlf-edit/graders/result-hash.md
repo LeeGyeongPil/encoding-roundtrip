@@ -1,0 +1,4 @@
+---
+type: regex
+pattern: 'result_sha256=633812498f16194f331d06f4c3418e0158b8bd2e267540d8f4f731c88a0adfe7 receipt=(?:282d8370c4c7981d|a25b347ed322f866)'
+---
