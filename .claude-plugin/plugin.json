@@ -1,0 +1,9 @@
+{
+  "name": "encoding-roundtrip",
+  "version": "0.1.2",
+  "description": "Edits CP949, EUC-KR, Shift_JIS, GBK, Windows-125x, BOM and CRLF files byte-exactly: records the original format, writes it back, refuses unencodable characters and verifies the result.",
+  "author": {"name": "LeeGyeongPil"},
+  "license": "MIT",
+  "homepage": "https://github.com/LeeGyeongPil/encoding-roundtrip",
+  "repository": "https://github.com/LeeGyeongPil/encoding-roundtrip"
+}

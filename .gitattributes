@@ -1,0 +1,3 @@
+# Sample and fixture files hold exact legacy bytes (CP949, Shift_JIS, CRLF, BOM): git must never touch them.
+examples/** -text
+evals/fixtures/** -text

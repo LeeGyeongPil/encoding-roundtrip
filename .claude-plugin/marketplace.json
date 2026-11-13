@@ -1,0 +1,12 @@
+{
+  "name": "encoding-roundtrip-skill",
+  "owner": {"name": "LeeGyeongPil"},
+  "description": "Agent skill that edits legacy-encoded text files without changing their encoding, BOM or line endings.",
+  "plugins": [
+    {
+      "name": "encoding-roundtrip",
+      "source": "./",
+      "description": "Byte-exact edits of CP949, EUC-KR, Shift_JIS, GBK, Windows-125x, BOM and CRLF files."
+    }
+  ]
+}
