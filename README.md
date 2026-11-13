@@ -159,17 +159,17 @@ Every error line has the form `encoding-roundtrip: error E_CODE: <what happened>
 ## Verified behavior
 
 <!-- skill-eval:start -->
-Live skill evaluation, 2026-11-13, version 0.1.2, Claude Code 2.1.322 with the `sonnet` model, 3 runs per case:
-
 | Check | Result |
 |---|---|
-| Requests that should load the skill | 12 / 12 loaded it |
-| Near-miss requests that should not | 1 / 11 loaded it anyway (0.091) |
-| Task cases passed with the skill | 6 / 6 (every case scored 1.0) |
-| Task cases passed without the skill | 0 / 6 |
-| Mean score gain from the skill | +0.639 |
-| Broken-script mutations caught by the task graders | 6 / 6 (1.0) |
-| Same task cases with Codex CLI 0.154.0 | 6 / 6 |
+| Triggers when it should | 12/12 |
+| Stays quiet when it should not | 10/11 |
+| Tasks solved with the skill | 6/6 |
+| Tasks solved without it (baseline) | 0/6 |
+| Mean score gain (Δ) | +0.64 |
+| Tasks that catch a broken script | 6/6 |
+| Codex CLI | 6/6 tasks · verified |
+
+Measured 2026-11-13 with Claude Code 2.1.322 · sonnet · 3 runs per case · codex-cli 0.154.0
 <!-- skill-eval:end -->
 
 Measured locally on 2026-11-13:
